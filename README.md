@@ -45,3 +45,19 @@ Este script é responsável por descriptografar os arquivos criptografados pelo 
    Certifique-se de que a biblioteca `pyaes` está instalada. Caso não tenha, você pode instalá-la usando o seguinte comando:
    ```bash
    pip install pyaes
+   
+2. **Execução dos Scripts:**
+
+   - Execute `criptografia.py` para criptografar arquivos.
+   - Execute `decrypte.py` para descriptografar os arquivos criptografados.
+
+3. **Chave de Criptografia/Descriptografia:**
+
+   Nas variáveis `key` dos scripts, ajuste a chave conforme necessário. Mantenha as chaves em segredo.
+
+4. **Execução no Terminal:**
+
+   - Abra um terminal no diretório do projeto.
+   - Execute `python criptografia.py` para criptografar arquivos.
+   - Execute `python decrypte.py` para descriptografar os arquivos criptografados.
+
